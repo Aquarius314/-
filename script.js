@@ -3,7 +3,7 @@ var word = document.getElementById('word');
 var index = 0;
 var stringToEncode = "Marta, kocham Cię jak wariat, i już nie wyobrażam sobie życia bez Ciebie! ♡♥❤";
 
-setInterval(encodeFull, 100);
+// setInterval(encodeFull, 100);
 
 function changeWord () {
     if (index < stringToEncode.length) {

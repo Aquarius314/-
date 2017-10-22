@@ -8,10 +8,28 @@
             body {
                 background: blue;
             }
+
+            button {
+              background-color: pink;
+              padding: 1em;
+              margin: 0 auto;
+              display: block;
+            }
         </style>
     </head>
     <body>
-        <h1><font face="monospace" color="pink" id="word">dSjkko932iryuhbdkUIjkdfUI96d0f</font></h1>
+        <h1>
+          <font face="monospace" color="pink" id="word">
+            OIU8ouhjsd987 sou0 oi7t7u6drfj 5sd7su64r76uydgshopu089ys87dt 7stdusytdisudiyg
+          </font>
+        </h1>
         <script src="script.js"></script>
+        <button id='but'>Start encoding!</button>
+        <script>
+          document.getElementById('but').onclick = function () {
+            setInterval(encodeFull, 120);
+            document.body.removeChild(this);
+          }
+        </script>
     </body>
 </html>
